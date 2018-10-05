@@ -12,14 +12,19 @@
 			var num=document.getElementById("n1");
 			num.value=Math.pow(num.value, 4);
 		}
+		function seno(){
+			var num=document.getElementById("n1");
+			num.value=Math.sin(num.value);
+		}
 	</script>
 </head>
 <body>
 	<h1>Calculadora de Marco Antonio Hernandez Salas</h1>
-Number:
+Numero:
 <input type="text" id="n1"><p>
 	<button onclick="cube()">x^3</button>
 	<button onclick="cuarta()">x^4</button>
+	<button onclick="seno()">Sin</button>
 </body>
 </html>
 
